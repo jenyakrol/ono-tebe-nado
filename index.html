@@ -5,6 +5,76 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Оно тебе надо — аукцион вещей, в которые никто не верил</title>
+    <link rel="stylesheet" href="./fonts/fonts.css" />
+    <link rel="stylesheet" href="./styles/global.css" />
+    <link rel="stylesheet" href="./styles/style.css" />
   </head>
-  <body></body>
+  <body>
+    <header class="header">
+      <nav class="header__menu">
+        <ul class="header__links-list">
+          <li class="header__links-list-item header__links-list-item_no-bullit">
+            <a class="header__link">главная</a>
+          </li>
+          <li class="header__links-list-item">
+            <a class="header__link" href="#0">посмотреть лоты</a>
+          </li>
+          <li ol class="header__links-list-item">
+            <a class="header__link" href="#0">об аукционе</a>
+          </li>
+        </ul>
+      </nav>
+      <a class="header__logo">
+        <img
+          class="header__logo-image"
+          src="./images/logo-black.svg"
+          alt="Лготип"
+        />
+      </a>
+      <address class="address header__address">
+        <a href="tel:+99995555555">+9 999 555 5555</a><br>
+        <a href="mailto:info@sobaka.ge">info@sobaka.ge</a><br>
+        <p>наб. Принсенграхт 263-265, <br />Амстердам</p>
+      </address>
+    </header>
+    <main>
+      <section class="cover">
+        <div class="overlay"></div>  
+          <h1 class="cover__title">
+            <div class="aligned-text aligned-text_left">
+              О<span class="letter-spacing-extended">НО</span>
+            </div>
+            <div class="aligned-text aligned-text_center">
+              <span>ТЕ</span><span class="letter-spacing-extended">БЕ</span>
+            </div>
+            <div class="aligned-text aligned-text_right">
+              <span class="letter-spacing-extended">Н</span>АД<span class="no-letter-spacing ">О</span>
+            </div>
+          </h1>
+        <section class="cover__description">
+          <h3 class="cover__description-text">Аукцион вещей, в которые никто не верил</h3>
+          <button class="bet-button" type="button">Сделать ставку</button>
+        </section>          
+      </section>
+      <section class="lost">
+        <h2 class="lots__heading">Лоты</h2>
+        <ul class="lots__card-list">
+          <li class="lots__card-list-item"">
+            <a class="card-link" href="#0">
+              <article class="card card_type_film">
+                <div class="overlay"></div>
+                <h3 class="card__title"></h3>
+                <p class="card__text">
+
+                </p>
+              </article>
+            </a>
+          </li>
+          
+        </ul>
+      </section>
+      <section class="about"></section>
+    </main>
+    <footer class="footer"></footer>
+  </body>
 </html>
